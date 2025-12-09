@@ -1,0 +1,23 @@
+{
+    "servers":{
+        "greetings":{
+            "type":"stdio",
+            "command":"uv",
+            "args":[
+                "run",
+                "greetings.py"
+            ],
+        },
+
+        "calculate":{
+            "type":"stdio",
+            "command":"uv",
+            "args":[
+                "run",
+                "calculate.py"
+            ]
+        }
+    }
+
+
+}
