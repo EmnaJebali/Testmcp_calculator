@@ -10,12 +10,8 @@
         },
 
         "calculate":{
-            "type":"stdio",
-            "command":"uv",
-            "args":[
-                "run",
-                "calculate.py"
-            ]
+            "type":"http",
+            "url":"https://logical-blue-beaver.fastmcp.app/mcp",
         }
     }
 
