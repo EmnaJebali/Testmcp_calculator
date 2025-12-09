@@ -1,5 +1,5 @@
 from typing import Union
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 mcp=FastMCP(
     name="calculate_server"
@@ -34,3 +34,7 @@ def divide(a: float, b: float) -> Union[float, str]:
 
 if __name__ == "__main__":
     mcp.run(transport="http")
+
+
+
+
